@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: 'roboto' ,sans-serif;
+}
+/* .overlay {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 100%;
+	width: 100%
+	padding: 5px;
+} */
+.log-in {
+	width: 100%;
+	height: 800px;
+	background-image: url(../image/background.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.log-in-section {
+	height: 650px;
+	width: 500px;
+	margin: 80px auto;
+}
+.log-in-section h1 {
+	text-transform: uppercase;
+	color: #d4d1d1;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.log-in-section a {
+	text-decoration: none;
+	font-family:  after shok;
+	color: #d4d1d1;
+}
+
+
+
+.log-in-body {
+	height: 250px;
+	width: 340px;
+	padding: 30px;
+	background-color: #040404a6;
+	margin: 0 auto;
+}
+.log-in-body h2 {
+	font-size: 25px;
+	color: #d4d1d1;
+	font-weight: normal;
+	display: inline-block;
+}
+.log-in-body i {
+	font-size: 25px;
+	color: #d4d1d1;
+	float: right;
+	padding-bottom: 35px;
+}
+.log-in-body input {
+	width: 315px;
+	padding: 10px;
+	border-radius: 1px;
+	border-color: transparent;
+	margin-bottom: 10px;
+	color: gray;
+}
+.log-in-body a p {
+	background-color: tomato;
+	padding: 10px;
+	text-align: center;
+	font-family: 'roboto' ,sans-serif;
+	color: #d4d1d1;
+	border-radius: 1px;
+	margin-bottom: 25px;
+}
+.log-in-body a p:hover {
+	background-color: lightgreen;
+	color: black;
+	transition: 1s;
+}
+.log-in-body label a {
+	margin-left: 110px;
+	font-family: 'roboto' ,sans-serif;
+	color: gray;
+	font-size: 15px;
+}
+
+.log-in-section h3 {
+	font-weight: normal;
+	font-size: 15px;
+	color: gray;
+	text-align: center;
+	padding: 25px 0;
+}
+
+
+
+
+.full-bottom {
+	height: 35px;
+	width: 340px;
+	margin: 0 auto;
+}
+.bottom-1 {
+	height: 20px;
+	width: auto;
+	float: left;
+	padding: 6px 17px;
+	border: 2px;
+	border-style: outset;
+	background-color: transparent;
+}
+.bottom-2 {
+	height: 20px;
+	width: auto;
+	float: left;
+	padding: 6px 17px;
+	border: 2px;
+	border-style: outset;
+	background-color: transparent;
+	margin: 0 6px;
+}
+.bottom-3 {
+	height: 20px;
+	width: auto;
+	float: right;
+	padding: 6px 17px;
+	border: 2px;
+	border-style: outset;
+	background-color: transparent;
+}
+.bottom-text i {
+	font-size: 15px;
+	color: #d4d1d1;
+	display: inline-block;
+}
+.bottom-text p {
+	font-size: 15px;
+	font-family: 'roboto' ,sans-serif;
+	color: #d4d1d1;
+	display: inline-block;
+}
+
+.bottom-text:hover {
+	background-color: gray;
+	transition: 1s;
+	color: white;
+}
+
+
+
+.log-in-section h6 {
+	font-family: 'roboto' ,sans-serif;
+	color: gray;
+	font-size: 15px;
+	display: inline-block;
+	font-weight: normal;
+	text-decoration: underline;
+	padding: 1px 5px;
+	padding-top: 25px;
+	margin-left: 175px;
+}
